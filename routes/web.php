@@ -26,6 +26,11 @@ Route::get('/bukantes', function () {
     return view('dua');
 });
 
+
+
+
+
+// Data Mahasiswa
 Route::get('/mahasiswa', [MahasiswaController::class,'index']);
 
 
